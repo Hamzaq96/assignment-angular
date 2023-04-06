@@ -1,0 +1,6 @@
+<div class="users">
+    <h3>List of users:</h3>
+    <ul>
+        <li *ngFor="let user of users" (click)="getUserDetails(user.id)">{{user.name}}</li>
+    </ul>
+</div>
